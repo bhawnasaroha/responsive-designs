@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Off Canvas</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="nav-fix">
+      <a class="navbar-brand" href="#"><i class="fa fa-music" aria-hidden="true"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lyrics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#english">English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#spanish">Spanish</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="onClickAlert()">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+    <div class="container">
+      <div class="row">
+        <div class="d-none d-sm-block"><img src="music.jpg"  alt="Music image" width="100%" height="50%"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div><h1 class="content"><br><br>slyrics</h1></div>
+        <div><p class="content">Find out lyrics of some of your favourite songs here.</p></div>
+      </div>
+    </section>
+
+    <hr>
+
+    <div class="container">
+      <div id="english"><h2 class="content"><u>ENGLISH</u></h2><h4 class="content">Ed Sheeran<small><br>"Perfect"</small></h4><p class="content"><br>I found a love for me<br>Darling, just dive right in and follow my lead<br>Well, I found a girl, beautiful and sweet<br>Oh, I never knew you were the someone waiting for me<br><br>'Cause we were just kids when we fell in love<br>Not knowing what it was<br>I will not give you up this time<br>But darling, just kiss me slow<br>Your heart is all I own<br>And in your eyes you're holding mine</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div id="spanish"><h2 class="content"><u>SPANISH</u></h2><h4 class="content">Andrea Bocelli<small><br>"Perfidia"</small></h4><p class="content"><br>Nadie comprende lo que sufro yo<br>canto pues ya no puedo sollozar,<br>solo temblando de ansiedad estoy<br>todos me miran y se van<br><br>Mujer,<br>si puedes tu con Dios hablar,<br>preguntale si yo alguna vez<br>te he dejado de adorar</p>
+      </div>
+    </div>
+
+    <footer id="end"><p style="text-align:center"><br><br><br>Copyright &copy 2018 slyrics.com</p></footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

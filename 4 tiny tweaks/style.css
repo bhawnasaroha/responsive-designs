@@ -1,0 +1,42 @@
+body {
+    margin: 3%;
+    font-size: 14px;
+    background-color: #000000;
+    color: #ffff99;
+}
+
+.container {
+    background-color: #331a00;
+    color: #ffff99;
+    font-family: calibri,sans-serif;
+    max-width: 100% !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media screen and (max-width:550px){
+
+  .para {
+      font-size: 1em;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  .para {
+      font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width:769px){
+
+  .para {
+      font-size: 1.6em;
+  }
+
+
+  .container {
+    padding: 3%;
+  }
+
+}
